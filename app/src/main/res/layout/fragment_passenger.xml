@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/mainLinearLayout1">
+
+            <TextView
+                android:text="@string/departure_text"
+                android:textSize="16sp"
+                android:fontFamily="@font/spoqa_han_sans_regular"
+                style="@style/BaseGrayText"/>
+
+            <TextView
+                android:id="@+id/departure_text"
+                android:text="@string/departure_init_text"
+                android:textSize="32sp"
+                android:fontFamily="@font/spoqa_han_sans_bold"
+                style="@style/BaseBlackText"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            style="@style/mainLinearLayout1">
+
+            <TextView
+                android:text="@string/arrival_text"
+                android:textSize="16sp"
+                android:fontFamily="@font/spoqa_han_sans_regular"
+                style="@style/BaseGrayText"/>
+
+            <TextView
+                android:id="@+id/arrival_text"
+                android:text="@string/arrival_init_text"
+                android:textSize="32sp"
+                android:fontFamily="@font/spoqa_han_sans_bold"
+                style="@style/BaseBlackText"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/mainLinearLayout2">
+
+        <TextView
+            android:text="@string/departure_time_text"
+            style="@style/hintText"/>
+
+        <TextView
+            android:id="@+id/time_text"
+            android:text="@string/departure_time_init_text"
+            style="@style/editText"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:text="@string/driver_search_text"
+        style="@style/BlueButton"/>
+
+</LinearLayout>

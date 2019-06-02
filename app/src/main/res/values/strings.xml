@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RoadTrip</string>
+
+    <string name="departure_text">출발지</string>
+    <string name="departure_init_text">서울</string>
+    <string name="arrival_text">도착지</string>
+    <string name="arrival_init_text">부산</string>
+    <string name="departure_time_text">출발시간</string>
+    <string name="departure_time_init_text">6월 2일 오후 1시</string>
+    <string name="driver_search_text">드라이버 찾기</string>
+</resources>
