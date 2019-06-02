@@ -50,7 +50,6 @@ public class FragmentDriver extends Fragment {
 
         mDepartureText = view.findViewById(R.id.departure_text);
         mArrivalText = view.findViewById(R.id.arrival_text);
-        final TextView timeText = view.findViewById(R.id.time_text);
         final EditText editText = view.findViewById(R.id.price_text);
         Button button = view.findViewById(R.id.button);
 

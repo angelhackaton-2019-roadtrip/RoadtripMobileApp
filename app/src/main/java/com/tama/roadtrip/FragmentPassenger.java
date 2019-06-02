@@ -40,7 +40,6 @@ public class FragmentPassenger extends Fragment {
 
         mDepartureText = view.findViewById(R.id.departure_text);
         mArrivalText = view.findViewById(R.id.arrival_text);
-        final TextView timeText = view.findViewById(R.id.time_text);
         Button button = view.findViewById(R.id.button);
 
         departureLayout.setOnClickListener(new View.OnClickListener() {
@@ -66,7 +65,6 @@ public class FragmentPassenger extends Fragment {
 
                 intent.putExtra("departure", mDepartureText.getText());
                 intent.putExtra("arrival", mArrivalText.getText());
-                intent.putExtra("time", timeText.getText());
 
                 startActivity(intent);
             }

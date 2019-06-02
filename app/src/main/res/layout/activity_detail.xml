@@ -45,7 +45,7 @@
             <LinearLayout style="@style/detailLinearLayout">
 
                 <TextView
-                    android:text="요급"
+                    android:text="요금"
                     style="@style/detailHintText"/>
 
                 <TextView

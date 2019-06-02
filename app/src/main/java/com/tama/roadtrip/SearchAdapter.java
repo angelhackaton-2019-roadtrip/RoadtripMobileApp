@@ -72,6 +72,7 @@ public class SearchAdapter  extends RecyclerView.Adapter<RecyclerView.ViewHolder
                             String vehicle = driver.get("vehicle") + "";
                             String bio = jsonObject.get("bio") + "";
 
+
                             intent.putExtra("name", name);
                             intent.putExtra("plateNumber", plateNumber);
                             intent.putExtra("vehicle", vehicle);

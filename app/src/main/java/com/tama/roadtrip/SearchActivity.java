@@ -28,7 +28,6 @@ public class SearchActivity extends Activity {
 
         String departure = intent.getExtras().getString("departure");
         String arrival = intent.getExtras().getString("arrival");
-        String time = intent.getExtras().getString("time");
 
         NetworkTask.CallBack callBack = new NetworkTask.CallBack() {
             @Override

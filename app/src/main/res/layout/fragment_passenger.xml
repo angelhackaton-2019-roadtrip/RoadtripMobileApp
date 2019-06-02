@@ -53,18 +53,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <LinearLayout
-        style="@style/mainLinearLayout2">
 
-        <TextView
-            android:text="@string/departure_time_text"
-            style="@style/hintText"/>
-
-        <TextView
-            android:id="@+id/time_text"
-            android:text="@string/departure_time_init_text"
-            style="@style/editText"/>
-    </LinearLayout>
 
     <Button
         android:id="@+id/button"
