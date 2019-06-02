@@ -49,6 +49,4 @@ public class DetailActivity extends Activity {
             }
         });
     }
-
-
 }

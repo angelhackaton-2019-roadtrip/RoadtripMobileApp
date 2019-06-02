@@ -12,6 +12,7 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/driver_departure"
             style="@style/mainLinearLayout1">
 
             <TextView
@@ -33,6 +34,7 @@
             android:layout_height="match_parent"/>
 
         <LinearLayout
+            android:id="@+id/driver_arrival"
             style="@style/mainLinearLayout1">
 
             <TextView
@@ -50,8 +52,6 @@
 
         </LinearLayout>
     </LinearLayout>
-
-
 
     <LinearLayout
         style="@style/mainLinearLayout2">

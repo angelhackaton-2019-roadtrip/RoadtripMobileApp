@@ -12,6 +12,7 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/passenger_departure"
             style="@style/mainLinearLayout1">
 
             <TextView
@@ -33,6 +34,7 @@
             android:layout_height="match_parent"/>
 
         <LinearLayout
+            android:id="@+id/passenger_arrival"
             style="@style/mainLinearLayout1">
 
             <TextView
