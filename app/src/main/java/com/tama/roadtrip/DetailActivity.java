@@ -16,7 +16,9 @@ public class DetailActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        TextView dateText = findViewById(R.id.date_text);
         TextView nameText = findViewById(R.id.name_text);
+        TextView priceText = findViewById(R.id.price_text);
         TextView plateNumberText = findViewById(R.id.plat_number_text);
         TextView vehicleText = findViewById(R.id.vehicle_text);
         TextView bioText = findViewById(R.id.bio_text);
@@ -24,10 +26,13 @@ public class DetailActivity extends Activity {
 
         final Intent intent = getIntent();
 
+        dateText.setText(intent.getExtras().getString("date"));
         nameText.setText(intent.getExtras().getString("name"));
+        priceText.setText(intent.getExtras().getString("price"));
         plateNumberText.setText(intent.getExtras().getString("plateNumber"));
         vehicleText.setText(intent.getExtras().getString("vehicle"));
         bioText.setText(intent.getExtras().getString("bio"));
+
 
         selectButton.setOnClickListener(new View.OnClickListener() {
             @Override

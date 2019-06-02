@@ -83,6 +83,9 @@ public class SearchAdapter  extends RecyclerView.Adapter<RecyclerView.ViewHolder
                             e.printStackTrace();
                         }
 
+                        intent.putExtra("date", mSearchItems.get(position).getClock());
+                        intent.putExtra("price", mSearchItems.get(position).getPrice());
+
                         v.getContext().startActivity(intent);
                     }
                 };
